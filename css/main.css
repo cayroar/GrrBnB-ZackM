@@ -1,4 +1,4 @@
-@import url('some google sans-serif font');
+@import url('https://fonts.google.com/specimen/Spicy+Rice');
 /* make sure to select a new google font and use it for your header */
 
 *{
@@ -23,8 +23,9 @@ main{
 header{
     /* Photo by Wyatt Ryan on Unsplash */
     /* Replace this with an image that you select */
+    /* doggy image*/
     background-image: url(../img/patrick-hendry-723775-unsplash.jpg);
-    background-size: 100% auto;
+    background-size: 100%  auto;
     background-position: center center;
 }
 header h1{
@@ -32,10 +33,11 @@ header h1{
     line-height: 4rem;
     padding: 1rem 1rem;
     color: rgba(250,250,250, 0.7);
-    text-shadow: 2px 2px 4px #AF847B;
+    text-shadow: 2px 2px 4px #98959E;
     vertical-align: top;
     text-align: right;
     min-height: 12rem;
+    font-family: "Spicy Rice", sans-serif, "Segoe UI"
 }
 header img{
     width: 15%;
@@ -66,7 +68,7 @@ input.price#max::after{
     content: "$" attr(data-price);
     display: block;
     margin-top: -1.5rem;
-    color: #252E37;
+    color: #918C90;
 }
 
 .search-btn{
@@ -74,7 +76,7 @@ input.price#max::after{
     line-height: 1.5;
     padding: 0.25rem 1rem;
     background-color:#5E6873;
-    color: #fff;
+    color: #FDE6DE;
 }
 @media all and (min-width:650px){
     form{
